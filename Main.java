@@ -1,48 +1,10 @@
-
-
-/**
- * Class Main
- */
 public class Main {
 
-  //
-  // Fields
-  //
+    public static void main(String[] args) {
 
-  
-  //
-  // Constructors
-  //
-  public Main () { };
-  
-  //
-  // Methods
-  //
+        Persona persona = new Persona("Jessica", 20);
 
-
-  //
-  // Accessor methods
-  //
-
-  //
-  // Other methods
-  //
-
-  /**
-   * @param        args
-   */
-  public static void main(String [] args)
-  {
-
-	Persona persona = new Persona();
-	persona.saludar();
-	system.out,println(persona.getEdad());
-
-
-} 
-
-
-
-
-
+        persona.saludar();
+    }
 }
+

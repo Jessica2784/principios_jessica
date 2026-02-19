@@ -17,7 +17,9 @@ public class Pelota {
   //
   // Constructors
   //
-  public Pelota () { };
+  public Pelota () { 
+  System.out.println("Construyo una pelota");
+  }
   
   //
   // Methods
@@ -111,6 +113,7 @@ public class Pelota {
    */
   public void botar()
   {
+	  System.out.println("La pelota esta botando");
   }
 
 
@@ -118,23 +121,14 @@ public class Pelota {
    */
   public void desinflar()
   {
+	  System.out.println("La pelota de sesindflo");
   }
 
 
   /**
    * @param        formal
    */
-  public void setForma(String formal)
-  {
-  }
 
-
-  /**
-   * @return       String
-   */
-  public String getForma()
-  {
-  }
 
 
 }

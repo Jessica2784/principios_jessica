@@ -1,3 +1,5 @@
+
+
 /**
  * Class Pelota
  */
@@ -8,9 +10,9 @@ public class Pelota {
   //
 
   public String forma;
-  public String color;
   public String tipo;
   protected String material;
+  private String color;
   
   //
   // Constructors
@@ -40,22 +42,6 @@ public class Pelota {
    */
   public String getForma () {
     return forma;
-  }
-
-  /**
-   * Set the value of color
-   * @param newVar the new value of color
-   */
-  public void setColor (String newVar) {
-    color = newVar;
-  }
-
-  /**
-   * Get the value of color
-   * @return the value of color
-   */
-  public String getColor () {
-    return color;
   }
 
   /**
@@ -90,6 +76,22 @@ public class Pelota {
     return material;
   }
 
+  /**
+   * Set the value of color
+   * @param newVar the new value of color
+   */
+  public void setColor (String newVar) {
+    color = newVar;
+  }
+
+  /**
+   * Get the value of color
+   * @return the value of color
+   */
+  public String getColor () {
+    return color;
+  }
+
   //
   // Other methods
   //
@@ -100,13 +102,8 @@ public class Pelota {
    * @param        material
    * @param        tipo
    */
-  public Pelota(String forma, String color, String material, String tipo)
+  public void pelota(String forma, String color, String material, String tipo)
   {
-	  this.forma=forma;
-	  this.color=color;
-	  this.material=material;
-	  this.tipo=tipo;
-	  System.out.println("Construyo una pelota");
   }
 
 
@@ -114,7 +111,6 @@ public class Pelota {
    */
   public void botar()
   {
-	  System.out.println("La pelota esta botando");
   }
 
 
@@ -122,7 +118,22 @@ public class Pelota {
    */
   public void desinflar()
   {
-	  System.out.println("La pelota se desinflo");
+  }
+
+
+  /**
+   * @param        formal
+   */
+  public void setForma(String formal)
+  {
+  }
+
+
+  /**
+   * @return       String
+   */
+  public String getForma()
+  {
   }
 
 
